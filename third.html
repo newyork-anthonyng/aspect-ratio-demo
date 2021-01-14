@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            border: 5px solid black;
+            /* padding-left: 50px;
+            padding-right: 50px; */
+            width: 100%;
+        }
+        .aspect-ratio {
+            border: 5px solid red;
+            width: 100vw;
+            height: 56.25vw;
+            background-color: tomato;
+            max-height: 100vh;
+            max-width: 177.78vh;
+            /* margin: auto; */
+            /* position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0; */
+        }
+    </style>
+</head>
+<body>
+    <!-- https://stackoverflow.com/a/20593342/6241383 -->
+    <div class="container">
+        <div class="aspect-ratio">
+        </div>
+    </div>
+</body>
+</html>
